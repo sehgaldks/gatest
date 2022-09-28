@@ -12,6 +12,8 @@ jobs:
         run: | 
           node -v
           npm -v
+      - name: sleep 10
+        run: sleep 10
       - name: Python Command
         run: |
           import platform 
